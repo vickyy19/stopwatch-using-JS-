@@ -1,0 +1,81 @@
+body {
+    background-color: rgba(59, 58, 58, 0.87);
+    margin: 0;
+    padding: 0;
+    font-size: 100%
+}
+
+.heading {
+    color: rgba(255, 159, 14, 0.938);
+    font-size: 5vw;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter {
+    padding: 10px;
+}
+
+.time {
+    font-size: 10vw;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    white-space: nowrap;
+}
+
+.text {
+    font-size: 5vw;
+    color: rgb(226, 226, 226);
+}
+
+.btn {
+    margin: 10px 15px;
+    padding: 8px 25px;
+    border: 1px solid #ffff;
+    font-size: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
+
+.start {
+    background-color: rgba(4, 255, 4, 0.63);
+}
+
+.start:hover {
+    background-color: rgba(4, 255, 4, 0.80);
+}
+
+.stop {
+    background-color: rgba(255, 0, 0, 0.63);
+}
+
+.stop:hover {
+    background-color: rgba(255, 0, 0, 0.80);
+}
+
+.reset {
+    background-color: rgba(0, 0, 255, 0.63);
+}
+
+.reset:hover {
+    background-color: rgba(0, 0, 255, 0.80);
+}
+
+@media screen and (max-width:500px) {
+    .btn {
+        margin: 10px 10px;
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+    .heading {
+        color: white;
+        font-size: 8.5vw;
+    }
+}
